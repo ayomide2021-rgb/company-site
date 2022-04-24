@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Browallia New;
-    ;
+    transition: 0.4s;
 }
 
 /**
@@ -140,6 +140,7 @@ nav {
     font-size: 25px;
     text-decoration: none;
     color: white;
+    line-height: 70px;
   }
 
 /* CATEGORY SECTION */
@@ -153,7 +154,6 @@ nav {
   }
 
 .category>p {
-    color: rgb(240, 36, 104);
     font-size: 25px;
     text-align: center;
     padding: 180px 0px 0px 0px;
@@ -185,10 +185,12 @@ nav {
     text-align: center;
     border: 1px solid rgb(192, 253, 255);
     cursor: pointer;
+    transition: 1s;
 }
 
+
 .category-flex >div:hover {
-    color: rgb(240, 36, 104);
+    color: rgb(240, 36, 104) !important;
     box-shadow: 0px 0px 20px rgb(235, 237, 238);
 }
 
@@ -214,7 +216,7 @@ nav {
 }
 
 .category > .category-flex>div>p {
-    color: rgb(240, 36, 104);
+    color: rgb(36, 118, 240);
 }
 
 .category> .category-link{
@@ -233,12 +235,16 @@ nav {
     color: cornflowerblue;
     border: 1px solid cornflowerblue;
     border-radius: 5px;
+    transition: linear .4s;
+    box-shadow: inset 0 0 0 0 #8b92dd;
 }
 
 .category>div >a:hover {
     color: white;
     background-color: cornflowerblue;
+    box-shadow: inset 0 100px 0 0 #8b92dd;
 }
+
 
 /*UPLOAD SECTION*/
 
@@ -271,9 +277,11 @@ nav {
     padding: 15px 80px 15px 80px;
     font-size: 25px;
     border-radius: 5px;
-    border: 1px solid rgb(157, 157, 231);
+    border: 1px solid #8b92dd;
     text-decoration: none;
-    color: rgb(157, 157, 231);
+    color: #8b92dd;
+    transition: linear .4s;
+    box-shadow: inset 0 0 0 0 #8b92dd;
 }
 
 .upload> .third{
@@ -282,8 +290,11 @@ nav {
 
 .upload> .third> a:hover{
     color: white;
-    background-color: rgb(157, 157, 231) ;
+    background-color: #8b92dd;
+    box-shadow: inset 0 100px 0 0 #8b92dd;
 }
+
+
 
 /* RECENT SECTION */
 .recent {
@@ -477,7 +488,7 @@ nav {
 }
 
 .personnel> .about{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: lighter;
     display: flex;
     width: 70%;
@@ -487,7 +498,7 @@ nav {
 
 .personnel> .about> i{
    padding: 0px 30px 0px 30px;
-   margin-bottom: 150px;
+   margin: 0px 120px 150px 120px;
 }
 
 
@@ -546,11 +557,40 @@ nav {
 
 .what> .pix {
     background: url(man.png) no-repeat;
-    background-size: 110%;
+    background-size: 130%;
     width: 500px;
-    height: 650px;
+    height: 700px;
     padding: 30px;
 }
+
+.what> .pix> .year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2b7b;
+    position: relative;
+    top: 480px;
+    bottom: 0px;
+    padding: 59px 28px;
+    border-radius: 5px;
+    left: -150px;
+    text-align: center!important;
+    height: 100px;
+    width: 150px;
+    color: white;
+    line-height: 50px;
+}
+
+.what> .pix> .year> p{
+    font-size: 33px;
+}
+
+.what> .pix> .year> p >span{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
 /**
 .what> .pix> p{
    color: white;
@@ -601,44 +641,94 @@ nav {
     background: url(brainstorm.jpg) no-repeat;
     background-size: 110%;
     width: 500px;
-    height: 600px;
+    height: 350px;
     padding: 30px;
     margin: 15px;
     background-color: white;
     text-align: left;
+    transition: 2s;
+    margin-bottom: 300px;
+}
+
+.blogs> .news> .first-news> .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    position: relative;
+    top: 280px;
+    bottom: 0px;
+    padding: 50px 25px;
+    left: -30px;
+    text-align: center!important;
+    height: 0px;
+    width: 60px;
+    color: white;
+    line-height: 20px;
+}
+
+.blogs> .news> .first-news> .time> p> span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.blogs> .news> .first-news> .time> p{
+    font-size: 25px;
 }
 
 .blogs> .news> .first-news:hover {  
-    background-size: 115%;
-    transition: all 2000ms ease-out;
-    transition-duration: 0.2s;
-    transition-delay: 0s;
+    background-size: 120%;
+    
 }
 
 .blogs> .news> .first-news> .bottom {
-    margin-top: 410px;
+    margin-top: 310px;
 }
 
 .blogs> .news> .second-news {
     background: url(businessman.jpg) no-repeat;
     background-size: 110%;
     width: 500px;
-    height: 600px;
+    height: 350px;
     padding: 30px;
     margin: 15px;
     background-color: white;
     text-align: left;
+    transition: 2s;
+}
+
+.blogs> .news> .second-news> .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    position: relative;
+    top: 280px;
+    bottom: 0px;
+    padding: 50px 25px;
+    left: -30px;
+    text-align: center!important;
+    height: 0px;
+    width: 60px;
+    color: white;
+    line-height: 20px;
+}
+
+.blogs> .news> .second-news> .time> p> span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.blogs> .news> .second-news> .time> p{
+    font-size: 25px;
 }
 
 .blogs> .news> .second-news:hover {  
-    background-size: 115%; 
-    transition: all 2000ms ease-out;
-    transition-duration: 0.2s;
-    transition-delay: 0s;
+    background-size: 120%; 
 }
 
 .blogs> .news> .second-news> .bottom {
-    margin-top: 410px;
+    margin-top: 310px;
 }
 
 .blogs> .news> .first-news> .bottom> .title, .blogs> .news> .second-news> .bottom> .title {
