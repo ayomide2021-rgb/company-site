@@ -813,8 +813,9 @@ nav {
     height: 300px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     padding-top: 100px;
+    padding-left: 30px;
 }
 
 .last> .first> div {
@@ -856,6 +857,10 @@ nav {
     font-size: 16px;
     list-style-type: none;
     line-height: 1.8;
+}
+
+.last> .first> div> ul {
+    padding-left: 0px;
 }
 
 .last> .first> div> ul> li> a:hover {
@@ -932,3 +937,5 @@ nav {
     text-decoration: none;
     font-size: 14px; 
 }
+
+
