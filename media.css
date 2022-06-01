@@ -175,7 +175,7 @@
 
 @media (max-width: 621px){
     .category {
-        height: 2500px;
+        height: 2400px;
 }
 }
 
@@ -204,6 +204,8 @@
     border: 1px solid rgb(192, 253, 255);
     }
 }
+
+
 
 /* UPLOAD SECTION */
 
@@ -375,6 +377,37 @@
     }
 }
 
+@media (max-width: 490px){
+    .recent-flex> .mini-flex> .name {
+        margin: 0px 0px 0px 10px;
+    }
+    
+    .recent-flex> .mini-flex> .image {
+        margin: 30px 10px 5px 30px;
+      
+    }
+    
+    .recent-flex> .mini-flex> .time {
+    padding: 0px;
+    margin: 20px 30px 15px 0px;
+    width: 200px;
+    text-align: center;
+    }
+
+    .recent> .first {
+        padding-top: 80px;
+    }
+
+    .recent> .second {
+        padding-bottom: 0px;
+    }
+
+    .recent {
+        height: 1700px;
+    }
+}
+
+
 /* PROCESS SECTION */
 
 @media (max-width: 844px){
@@ -425,6 +458,13 @@
     }
 }
 
+@media (max-width: 490px) {
+
+    .process {
+        height: 1500px;
+    }
+}
+
   /* PERSONNEL SECTION */
 
   @media (max-width: 1199px) {
@@ -438,6 +478,10 @@
     .personnel> .about{
         font-size: 18px;
         width: 80%;
+    }
+
+    .personnel> div >img {
+        margin-top: 100px;
     }
   }
 
@@ -683,15 +727,18 @@
     }
 }
 
+@media (max-width: 490px){
+    .blogs {
+        height: 1300px;
+       }
+}
+
 @media (max-width: 393px){
   
     .blogs> .news> .first-news> .bottom> .read> a, 
     .blogs> .news> .second-news> .bottom> .read> a {
         font-size: 18px;
     } 
-}
-
-@media (max-width: 393px){
 
     .blogs {
          height: 1200px;
@@ -745,6 +792,17 @@
     } 
 }
 
+@media (max-width: 869px){
+    .last> .second> div {
+        margin: 5px 200px 10px 0px;
+    } 
+
+    .last> .copyright {
+    margin: 0px 50px;
+}
+}
+
+
 @media (max-width: 933px){
     .last> .copyright {
         height: 100px;
@@ -773,7 +831,7 @@
     .last> .second {
         justify-content: left;
         align-items: left;
-        margin-left: 40px;
+        margin-left: 70px;
     }
 
     .last > .copyright{
@@ -789,6 +847,6 @@
 @media (max-width: 393px){
 
     .last {
-        height: 1700px;
+        height: 1800px;
     }
 }
