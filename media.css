@@ -850,3 +850,17 @@
         height: 1800px;
     }
 }
+
+@media (max-width: 454px){
+
+    .last> .second> div {
+        margin: 5px 150px 10px 0px;
+    }
+}
+
+@media (max-width: 405px){
+
+    .last> .second> div {
+        margin: 5px 100px 10px 0px;
+    }
+}
