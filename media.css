@@ -644,6 +644,16 @@
     }
 }
 
+@media (max-width: 403px){
+    .what> .pix> .year {
+        top: 270px;
+        left: -10px;
+        height: 85px;
+        width: 170px;  
+        line-height: 35px;   
+    }
+}
+
 @media (max-width: 393px){
 
     .what {
